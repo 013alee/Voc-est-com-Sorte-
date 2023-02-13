@@ -1,0 +1,45 @@
+import 'dart:math';
+
+void main() {
+//ATIVIDADE 13/02
+
+
+//DECORAÇÃO
+  print('* * * * * * * * * * *SORTE.IO* * * * * * * * * * *');
+  print('*                                                *');
+  print('*                                                *');
+  print('*                                                *');
+
+//Sorteio
+  var random = Random();
+  int sorteado = random.nextInt(100) + 1;
+  
+
+// Variavel String
+  String nome = 'Alexandre';
+  print('   Olá $nome, Seja bem vindo!');
+  
+// Variavel Int
+  int idade = 14;
+  print('   Sua idade é de $idade anos.');
+  
+  
+//Print Sorteio
+  print('   O número sorteado foi: $sorteado');
+  int sorte = 87;
+
+//IF/ELSE
+  if(sorteado >= sorte ){
+  print('   Parabens! Você está com sorte!');
+  }else
+
+{
+  print('   Você não esta com tanta sorte assim!');
+}
+
+//DECORAÇÃO  
+  print('*                                                *');
+  print('*                                                *');
+  print('*                                                *');
+  print('* * * * * * * * * * *SORTE.IO* * * * * * * * * * *');
+}
